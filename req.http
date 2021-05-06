@@ -1,0 +1,8 @@
+POST http://localhost:5000/messages HTTP/1.1
+content-type: application/json
+
+{
+  "message": "abc123",
+  "userId": "abc456"
+  
+}
